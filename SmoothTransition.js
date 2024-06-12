@@ -1,5 +1,5 @@
 /*:
- * @plugindesc v1.0.0 - A plugin handling the smooth transitions for any games.
+ * @plugindesc v1.0.1 - A plugin handling the smooth transitions for any games.
  * @author Serena1432
  *
  * @help -------------------------------------------------------------------------------
@@ -362,7 +362,6 @@ Game_Interpreter.prototype.pluginCommand = function(command, args) {
                         break;
                     }
                 }
-                transition.stop();
                 break;
             }
         }
